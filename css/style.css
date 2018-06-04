@@ -131,12 +131,23 @@ img.updown {
   padding-top: -40px;
 }
 
-h3.WashingtonState {
+h3.from {
+  color: #AFAFAF;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 9px;
+  margin-left:0px;
+  display: inline-block;
+  text-align: left;
+}
+
+h3.to {
   color: #AFAFAF;
   font-size: 13px;
   font-weight: 400;
   margin-top: 9px;
   display: inline-block;
+  text-align: left;
 }
 
 hr.style2 {
@@ -144,14 +155,27 @@ hr.style2 {
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 8px 58px 8px 0;
+  margin: 6px 58px -2px 0px;
   padding: 0;
 }
 
-h3.Choosedestination {
-  color: #DEDEDE;
+input {
+  color: #AFAFAF;
   font-weight: 400;
   font-size: 13px;
+  width: 80%;
+  margin-left: 0px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px;
+  padding: 0;
+}
+
+.to {
+  padding-top: -12px;
+  margin-top: -20px;
+  color: #DEDEDE;
 }
 
 /* Busybus third box */
@@ -212,7 +236,7 @@ hr.style1 {
 
 /* bus info */
 
-p.busline1 {
+.busline1 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -223,14 +247,14 @@ p.busline1 {
   padding-left: 30px;
 }
 
-p.bullet1 {
+.bullet1 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
   padding-left: 18px;
 }
 
-p {
+li {
   text-align: left;
 }
 
@@ -240,18 +264,18 @@ p {
   padding-left: 22px;
 }
 
-p.where1 {
+.where1 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when1 {
+.when1 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number1 {
+.number1 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -260,7 +284,7 @@ p.number1 {
   font-size: 14px;
 }
 
-p.min1 {
+.min1 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -268,7 +292,7 @@ p.min1 {
   font-size: 12px;
 }
 
-p.busline2 {
+.busline2 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -279,7 +303,7 @@ p.busline2 {
   font-size: 14px;
 }
 
-p.bullet2 {
+.bullet2 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -292,18 +316,18 @@ p.bullet2 {
   padding-left: 22px;
 }
 
-p.where2 {
+.where2 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when2 {
+.when2 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number2 {
+.number2 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -312,7 +336,7 @@ p.number2 {
   font-size: 14px;
 }
 
-p.min2 {
+.min2 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -320,7 +344,7 @@ p.min2 {
   font-size: 12px;
 }
 
-p.busline3 {
+.busline3 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -331,7 +355,7 @@ p.busline3 {
   font-size: 14px;
 }
 
-p.bullet3 {
+.bullet3 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -344,18 +368,18 @@ p.bullet3 {
   padding-left: 22px;
 }
 
-p.where3 {
+.where3 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when3 {
+.when3 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number3 {
+.number3 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -364,7 +388,7 @@ p.number3 {
   font-size: 14px;
 }
 
-p.min3 {
+.min3 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -372,7 +396,7 @@ p.min3 {
   font-size: 12px;
 }
 
-p.busline4 {
+.busline4 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -383,7 +407,7 @@ p.busline4 {
   font-size: 14px;
 }
 
-p.bullet4 {
+.bullet4 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -397,18 +421,18 @@ p.bullet4 {
   font-size: 12px;
 }
 
-p.where4 {
+.where4 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when4 {
+.when4 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number4 {
+.number4 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -417,7 +441,7 @@ p.number4 {
   font-size: 14px;
 }
 
-p.min4 {
+.min4 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -425,7 +449,7 @@ p.min4 {
   font-size: 12px;
 }
 
-p.busline5 {
+.busline5 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -436,7 +460,7 @@ p.busline5 {
   font-size: 14px;
 }
 
-p.bullet5 {
+.bullet5 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -449,18 +473,18 @@ p.bullet5 {
   padding-left: 22px;
 }
 
-p.where5 {
+.where5 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when5 {
+.when5 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number5 {
+.number5 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -469,7 +493,7 @@ p.number5 {
   font-size: 14px;
 }
 
-p.min5 {
+.min5 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -477,7 +501,7 @@ p.min5 {
   font-size: 12px;
 }
 
-p.busline6 {
+.busline6 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -488,7 +512,7 @@ p.busline6 {
   font-size: 14px;
 }
 
-p.bullet6 {
+.bullet6 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -501,18 +525,18 @@ p.bullet6 {
   padding-left: 22px;
 }
 
-p.where6 {
+.where6 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when6 {
+.when6 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number6 {
+.number6 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -521,7 +545,7 @@ p.number6 {
   font-size: 14px;
 }
 
-p.min6 {
+.min6 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -529,7 +553,7 @@ p.min6 {
   font-size: 12px;
 }
 
-p.busline7 {
+.busline7 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -540,7 +564,7 @@ p.busline7 {
   font-size: 14px;
 }
 
-p.bullet7 {
+.bullet7 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -553,18 +577,18 @@ p.bullet7 {
   padding-left: 22px;
 }
 
-p.where7 {
+.where7 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when7 {
+.when7 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number7 {
+.number7 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -573,7 +597,7 @@ p.number7 {
   font-size: 14px;
 }
 
-p.min7 {
+.min7 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -581,7 +605,7 @@ p.min7 {
   font-size: 12px;
 }
 
-p.busline8 {
+.busline8 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -592,7 +616,7 @@ p.busline8 {
   font-size: 14px;
 }
 
-p.bullet8 {
+.bullet8 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -605,18 +629,18 @@ p.bullet8 {
   padding-left: 22px;
 }
 
-p.where8 {
+.where8 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when8 {
+.when8 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number8 {
+.number8 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -625,7 +649,7 @@ p.number8 {
   font-size: 14px;
 }
 
-p.min8 {
+.min8 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
@@ -633,7 +657,7 @@ p.min8 {
   font-size: 12px;
 }
 
-p.busline9 {
+.busline9 {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -644,7 +668,7 @@ p.busline9 {
   font-size: 14px;
 }
 
-p.bullet9 {
+.bullet9 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
@@ -657,18 +681,18 @@ p.bullet9 {
   padding-left: 22px;
 }
 
-p.where9 {
+.where9 {
   font-weight: 600;
   font-size: 14px;
 }
 
-p.when9 {
+.when9 {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-p.number9 {
+.number9 {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -677,7 +701,7 @@ p.number9 {
   font-size: 14px;
 }
 
-p.min9 {
+.min9 {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
