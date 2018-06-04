@@ -113,57 +113,34 @@ img.purplearrow {
   text-align: left;
   display: inline-block;
   float: left;
+  margin-right: 7px;
 }
 
 img.updown {
   float: left;
   margin-bottom: 16px;
-  margin-top: -30px;
+  margin-top: -39px;
   padding-top: -20px;
   margin-left: 326px;
-  padding: 6px;
   padding: 7px;
 }
 
-.words {
-  margin-bottom: -10px;
-  margin-left: 70px;
-  padding-top: -40px;
-}
-
-h3.from {
-  color: #AFAFAF;
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 9px;
-  margin-left:0px;
-  display: inline-block;
-  text-align: left;
-}
-
-h3.to {
-  color: #AFAFAF;
-  font-size: 13px;
-  font-weight: 400;
-  margin-top: 9px;
-  display: inline-block;
-  text-align: left;
-}
 
 hr.style2 {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 6px 58px -2px 0px;
-  padding: 0;
+  margin: 6px 60px -2px 0px;
+  padding-right: 10px;
+  position: relative;
 }
 
 input {
   color: #AFAFAF;
   font-weight: 400;
   font-size: 13px;
-  width: 80%;
+  width: 60%;
   margin-left: 0px;
   margin-top: 8px;
   box-sizing: border-box;
@@ -172,7 +149,7 @@ input {
   padding: 0;
 }
 
-.to {
+.destination {
   padding-top: -12px;
   margin-top: -20px;
   color: #DEDEDE;
@@ -194,13 +171,14 @@ img.greenarrow {
   width: 60px;
   height: 60px;
   padding: 4px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 0px;
   margin-right: 200px;
   z-index: 3;
   position: relative;
   top: 280px;
-  left: 232px;
+  left: 292px;
+  float: left;
 }
 
 .containerbox3 {
@@ -216,7 +194,7 @@ img.greenarrow {
   position: relative;
 }
 
-h3.busesnearby {
+.busesnearby {
   margin-left: 70px;
   margin-top: 7px;
   margin-bottom: 10px;
@@ -236,7 +214,8 @@ hr.style1 {
 
 /* bus info */
 
-.busline1 {
+
+.busline {
   color: #9F4CF2;
   float: left;
   margin-left: -4px;
@@ -258,24 +237,24 @@ li {
   text-align: left;
 }
 
-.bus1 {
+.bus {
   line-height: 19px;
   float: left;
   padding-left: 22px;
 }
 
-.where1 {
+.where {
   font-weight: 600;
   font-size: 14px;
 }
 
-.when1 {
+.when {
   font-weight: lighter;
   color: #828282;
   font-size: 12px;
 }
 
-.number1 {
+.number {
   font-weight: 600;
   line-height: 23px;
   padding-right: 35px;
@@ -284,23 +263,12 @@ li {
   font-size: 14px;
 }
 
-.min1 {
+.min {
   font-weight: lighter;
   color: #828282;
   padding-right: 35px;
   text-align: right;
   font-size: 12px;
-}
-
-.busline2 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
 }
 
 .bullet2 {
@@ -310,101 +278,11 @@ li {
   padding-left: 11px;
 }
 
-.bus2 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where2 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when2 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number2 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min2 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline3 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
-}
-
 .bullet3 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
   padding-left: 13px;
-}
-
-.bus3 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where3 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when3 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number3 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min3 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline4 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
 }
 
 .bullet4 {
@@ -414,102 +292,11 @@ li {
   padding-left: 12px;
 }
 
-.bus4 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-  font-size: 12px;
-}
-
-.where4 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when4 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number4 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min4 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline5 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
-}
-
 .bullet5 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
   padding-left: 11px;
-}
-
-.bus5 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where5 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when5 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number5 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min5 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline6 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
 }
 
 .bullet6 {
@@ -519,101 +306,11 @@ li {
   padding-left: 16px;
 }
 
-.bus6 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where6 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when6 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number6 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min6 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline7 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
-}
-
 .bullet7 {
   color: #9F4CF2;
   float: left;
   padding-top: 2px;
   padding-left: 25px;
-}
-
-.bus7 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where7 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when7 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number7 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min7 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline8 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 30px;
-  font-size: 14px;
 }
 
 .bullet8 {
@@ -623,51 +320,6 @@ li {
   padding-left: 16px;
 }
 
-.bus8 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where8 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when8 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number8 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min8 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
-
-.busline9 {
-  color: #9F4CF2;
-  float: left;
-  margin-left: -4px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-right: 8px;
-  padding-left: 30px;
-  font-size: 14px;
-}
-
 .bullet9 {
   color: #9F4CF2;
   float: left;
@@ -675,39 +327,7 @@ li {
   padding-left: 13px;
 }
 
-.bus9 {
-  line-height: 19px;
-  float: left;
-  padding-left: 22px;
-}
-
-.where9 {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.when9 {
-  font-weight: lighter;
-  color: #828282;
-  font-size: 12px;
-}
-
-.number9 {
-  font-weight: 600;
-  line-height: 23px;
-  padding-right: 35px;
-  padding-top: -2px;
-  text-align: right;
-  font-size: 14px;
-}
-
-.min9 {
-  font-weight: lighter;
-  color: #828282;
-  padding-right: 35px;
-  text-align: right;
-  font-size: 12px;
-}
+/* Scroll behavior */
 
 nav, scroll-container {
   display: block;
